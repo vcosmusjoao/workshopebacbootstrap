@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <img width="270px;"id="logo" alt="logo" class="logo"src="./images/Frame 1logo.png">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Sobre</a>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Formação</a></li>
+                    <li> <a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container">
+
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="./images/web-design.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/elementos-de-criacao-de-sites-e-web-design.webp" alt="Second slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+
+
+
+       
+
+            <div class="row">
+                <div class="col-md-6 col-sm-5">
+                    <img width="350px;"alt="perfil"src="./images/Design sem nome.png">
+                 </div>
+
+           
+                <div class="col-md-6 col-sm-12">
+                    <div class="textoSobre">
+                        <h1>Quem sou eu</h1>
+                        <p>Olá! Me chamo João Victor, tenho 22 anos, estudo Sistemas para Internet na FIAP,
+                            trabalho também como estagiário numa fintech Brasileira na parte de desenvolvimento
+                            JAVA. Aqui você vai conhecer um pouco mais dos meus projetos e serviços.
+                        </p>
+                    </div>
+
+                </div>
+         
+               
+               
+            </div>
+
+            <h1> HABILIDADES</h1>
+            <div class="accordion accordion-flush " id="accordionHabilidades">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img alt="iconJava" src="images/4691382_java_icon.png">JAVA
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Possuo Conhecimento em POO- polimorfismo, herança , classes e objetos e já participei da criação de algumas aplicações em JAVA, como um sistema simples
+                      de conta bancária, de uma biblioteca e também conhecimento no framework SpringBoot e consumo de API.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <img alt="iconHtml" src="images/104494_html5_html_icon.png"> HTML
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    Básico de estruturação de páginas HTML.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img style="padding-right:10px;"alt="iconGithub" src="images/940962_git_github_hub icon_icon.png"> Git e Github
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                   Consigo criar repositórios e trabahar com comandos básicos do git via terminal
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h1>Formação</h1>
+              <div class="formacao">
+                
+                <p>Atualmente estudo o curso de sistemas para Internet na <span style="font-weight: bold">FIAP</span>, estando no segundo semestre.
+
+                </p>
+
+
+              </div>
+
+
+
+
+    </div>
+    <footer>
+        <p>&copy; Desenvolvido por @VCOSMUS 2021</p>
+
+    </footer>
+   
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
+    crossorigin="anonymous"></script> 
+</body>
+</html>
